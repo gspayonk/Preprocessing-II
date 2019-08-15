@@ -171,14 +171,17 @@ img {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin: 3% 0;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .navigation {
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 a {
   text-decoration: none;
+  font-size: 2rem;
+  color: black;
 }
 .footer {
   width: 100%;
@@ -252,9 +255,6 @@ a {
 .container.home {
   width: 100%;
 }
-header {
-  max-width: 100%;
-}
 header h1 {
   justify-content: flex-start;
 }
@@ -264,4 +264,7 @@ header nav {
 header .topimg {
   width: 100%;
   margin-top: 2%;
+}
+header .img.logo {
+  margin-top: -24px;
 }
