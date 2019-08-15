@@ -196,6 +196,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 30px;
+  border-top: 2px dashed #C0C0C0;
 }
 .home .content-section .text-content {
   width: 48%;
@@ -259,9 +261,7 @@ header h1 {
 header nav {
   justify-content: flex-end;
 }
-header hr {
-  width: 100%;
-}
 header .topimg {
+  width: 100%;
   margin-top: 2%;
 }
