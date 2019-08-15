@@ -168,6 +168,18 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3% 0;
+}
+.navigation {
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +236,22 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.container.home {
+  width: 100%;
+}
+header {
+  max-width: 100%;
+}
+header h1 {
+  justify-content: flex-start;
+}
+header nav {
+  justify-content: flex-end;
+}
+header hr {
+  width: 100%;
+}
+header .topimg {
+  margin-top: 2%;
 }
