@@ -237,6 +237,15 @@ a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  display: block;
+  color: #FFFFFF;
+  background-color: #428A7A;
+  margin: 2%;
+  width: 70%;
+  height: 20%;
+  border-radius: 30px;
+}
 .container.home {
   width: 100%;
 }
