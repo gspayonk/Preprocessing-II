@@ -1,5 +1,28 @@
 // Navigation Styles here
-
-h1 {
-    margin-left: 16%;
+header{
+    display:flex;
+    justify-content:space-between;
+    
+    @media @mobile {
+    width:100%;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    }
+    nav {
+    margin-left:3%;
+    @media (max-width:500px){
+        margin:0;
+    }
+    }// closes top-bus
+    .navigation{
+    width:50%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    
+    @media (max-width:500px){
+        width:100%;
+    }
+    }
 }
