@@ -320,15 +320,3 @@ nav .navigation a {
   border-radius: 30px;
   margin-bottom: 10%;
 }
-@media (max-width:500px) {
-  .home .content-pick .destination {
-    display: block;
-    color: #FFFFFF;
-    background-color: #428A7A;
-    margin: 2%;
-    width: 70%;
-    height: 20%;
-    border-radius: 30px;
-    margin-bottom: 10%;
-  }
-}
